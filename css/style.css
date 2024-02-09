@@ -351,6 +351,16 @@
 #es-rc #es-rc-content .es-why .es-features__title {
   height: 2em;
 }
+@media (max-width: 370px) {
+  #es-rc #es-rc-content .es-why .es-features__title {
+    height: 3em;
+  }
+}
+@media (min-width: 768px) {
+  #es-rc #es-rc-content .es-why .es-features__title {
+    height: 3em;
+  }
+}
 #es-rc #es-rc-content .es-dose {
   background: rgb(4, 94, 72);
   background: linear-gradient(90deg, rgb(4, 94, 72) 22%, rgb(4, 132, 100) 40%, rgb(4, 109, 84) 67%, rgb(4, 124, 97) 95%, rgb(4, 116, 92) 100%);
